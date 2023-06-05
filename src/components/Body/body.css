@@ -1,0 +1,30 @@
+main{
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/reactjs-icon 2.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+h1{
+    font-size: 40px;
+    color: aliceblue;
+    margin-left: 30px;
+}
+ul{
+    color: aliceblue;
+    margin: 30px;
+    list-style: none;
+}
+li{
+    padding: 10px;
+    font-size: 20px;
+}
+li::marker{
+    content: "•"; 
+    font-size: 2rem;
+    color: #61DAFB;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+}
+
